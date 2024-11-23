@@ -4,22 +4,30 @@
     align-items: center;
     justify-content: flex-start;
     height: 100vh;
-    width: 80%;
     margin: 0 auto;
     padding: 4rem;
-    background-color: antiquewhite;
 }
 
 .page-container h1 {
-    display: block;
     font-family: 'Arial', sans-serif;
-    font-size: 4rem;
     color: #333;
-    padding: 0 4rem;
     text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.page-container h1 {
+    font-size: 2rem;
+}
+
+@media (min-width: 1024px) {
+    .page-container h1 {
+        font-size: 4rem;
+    }
 }
 
 .connect-button {
+    padding: 2rem;
     width: fit-content;
     cursor: pointer;
 }
@@ -34,5 +42,5 @@
     bottom: 0;
     width: 100%;
     text-align: center;
-    padding: 2rem;
+    padding-bottom: 1rem;
 }

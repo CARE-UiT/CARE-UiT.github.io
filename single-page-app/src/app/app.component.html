@@ -4,13 +4,16 @@
     <h1>Who skis where when?</h1>
 
     <div class="connect-button">
-        <img src="assets/connectWithStravaLarge.png" 
-        alt="Powered by Strava"
-        (click)="onClick()"/>
+        <picture>
+            <source srcset="assets/connectWithStravaLarge.png" media="(min-width: 1024px)">
+            <img src="assets/connectWithStrava.png" alt="Connect with Strava" (click)="onClick()">
+        </picture>
     </div>
 </div>
 <footer class="page-footer">
-    <img src="assets/poweredByStrava.png" 
-    alt="Powered by Strava"/>
+    <picture>
+        <source srcset="assets/poweredByStrava.png" media="(min-width: 1024px)">
+        <img src="assets/poweredByStravaStacked.png" alt="Connect with Strava" (click)="onClick()">
+    </picture>
 </footer>
 
