@@ -1,0 +1,38 @@
+.page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+    padding: 4rem;
+    background-color: antiquewhite;
+}
+
+.page-container h1 {
+    display: block;
+    font-family: 'Arial', sans-serif;
+    font-size: 4rem;
+    color: #333;
+    padding: 0 4rem;
+    text-align: center;
+}
+
+.connect-button {
+    width: fit-content;
+    cursor: pointer;
+}
+
+.page-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+}
