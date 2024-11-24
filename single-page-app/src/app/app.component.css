@@ -14,9 +14,6 @@
     text-align: center;
     margin: 0;
     padding: 0;
-}
-
-.page-container h1 {
     font-size: 2rem;
 }
 
@@ -27,9 +24,16 @@
 }
 
 .connect-button {
-    padding: 2rem;
-    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
+}
+
+.responsive-img {
+    width: 100%;
+    transform: scale(0.75);
+    height: auto;
 }
 
 .page-footer {

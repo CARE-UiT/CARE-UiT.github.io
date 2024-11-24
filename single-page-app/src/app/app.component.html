@@ -1,19 +1,15 @@
-<router-outlet />
+<router-outlet></router-outlet>
 
 <div class="page-container">
     <h1>Who skis where when?</h1>
 
     <div class="connect-button">
-        <picture>
-            <source srcset="assets/connectWithStravaLarge.png" media="(min-width: 1024px)">
-            <img src="assets/connectWithStrava.png" alt="Connect with Strava" (click)="onClick()">
-        </picture>
+            <img src="assets/connectWithStravaLarge.png" alt="Connect with Strava" class="responsive-img" (click)="onClick()">
     </div>
 </div>
 <footer class="page-footer">
     <picture>
         <source srcset="assets/poweredByStrava.png" media="(min-width: 1024px)">
-        <img src="assets/poweredByStravaStacked.png" alt="Connect with Strava" (click)="onClick()">
+        <img src="assets/poweredByStravaStacked.png" alt="Powered by Strava" class="responsive-img">
     </picture>
 </footer>
-
